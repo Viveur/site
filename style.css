@@ -1,0 +1,32 @@
+body {
+  background: hsl(0, 10%, 80%);
+  text-align: center;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.logo {
+  width: 50%;
+  max-width: 320px;
+  margin: 0 0 1rem;
+}
+
+.content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.contact a {
+  font-size: 1.25rem;
+  color: hsl(0, 0%, 45%);
+  text-decoration: none;
+  /*width: 50%;
+  margin: 0 1rem 0 0;*/
+  display: block;
+  margin: 0.5rem 0;
+}
+
+/*.contact a + .contact a {
+  margin: 0 0 0 1rem;
+}*/
